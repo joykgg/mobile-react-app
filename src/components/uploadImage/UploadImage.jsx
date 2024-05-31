@@ -26,7 +26,7 @@ const UploadImage = () => {
 
     try {
       const response = await axios.post(
-        "https://6707-34-27-19-206.ngrok-free.app/predict",
+        "https://6f61-35-204-226-240.ngrok-free.app/predict",
         formData,
         {
           headers: {
