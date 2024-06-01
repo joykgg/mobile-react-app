@@ -34,7 +34,7 @@ export const WebcamCapture = () => {
       formData.append("image", blob, "captured-image.jpg");
 
       const response = await axios.post(
-        "https://0fa8-34-27-167-18.ngrok-free.app/predict",
+        "https://7aef-35-201-180-207.ngrok-free.app/predict",
         formData,
         {
           headers: {
